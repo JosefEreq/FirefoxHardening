@@ -100,6 +100,8 @@ Sök på "privacy.clearOnShutdown*" och ändra till TRUE
 
 Sök på "datareporting*" och inaktivera alla datareporting funktioner
 
+Rensa cert root store från aktörer med statlig koppling och mindre betrodda CAs.
+
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
 browser.formfill.enable = false
@@ -149,7 +151,6 @@ media.autoplay.default = 5
 device.sensors.enabled = false
 privacy.clearsitedata.cache.enabled = true
 privacy.sanitize.timeSpan = 0
-
 identity.fxaccounts.enabled = false
 network.trr.mode = 5(Om annat protokol tex dnscrypt används)
 network.dns.skipTRR-when-parental-control-enabled = false
