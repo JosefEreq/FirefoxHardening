@@ -3,7 +3,10 @@
 <br></br>
 <br></br>
 #### 	WIP, take the listed notes below into consideration before appliying this configuration guide.
-| Planned fixes/improvments |
+
+### Planned fixes and improvments
+| <b>Description</b> |
+| :-----: |
 | Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! |
 | English translation. |
 | Descriptions for each configuration. |
