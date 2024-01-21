@@ -73,7 +73,7 @@ Stäng av funktioner med risk för siteläsning/browser.newtabpage.activity-stre
 
 Stäng av DRM block-funktioner/media.eme.enabled = "false"
 
-Stäng av onödiga/osäkra tjänster/media.gmp-widevinecdm.enabled = "false", media.gmp-widevinecdm.visible = "false"
+Stäng av GMP/media.gmp-widevinecdm.enabled = "false", media.gmp-widevinecdm.visible = "false"
 
 Stäng av tracking av hårdvara/media.navigator.enabled = "false"
 
