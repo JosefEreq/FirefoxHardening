@@ -3,14 +3,12 @@
 <br></br>
 <br></br>
 #### 	WIP, take the listed notes below into consideration before appliying this configuration guide.
-### Planned fixes/improvments
-| Description | Status |
-| :---        |         ---: |
-| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! | <b>Not started</b> |
-| English translation. | <b>Not started</b> | 
-| Descriptions for each configuration. | <b>Not started</b> | 
-| Remove deprecated configuration parameters. (No impact on security or privacy.) | <b>Not started</b> | 
-| Formatting/tables for configuration list. | <b>Not started</b> | 
+| Planned fixes/improvments |
+| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! |
+| English translation. |
+| Descriptions for each configuration. |
+| Remove deprecated configuration parameters. (No impact on security or privacy.) |
+| Formatting/tables for configuration list. |
   
 <br></br>
 <br></br>
