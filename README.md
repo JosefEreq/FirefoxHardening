@@ -1,3 +1,4 @@
+<br></br>
 # Firefox hardening
 <br></br>
 <br></br>
