@@ -9,9 +9,9 @@
 | :-: |
 | <b>(Security and/or privacy risks in pb-mode!)</b> Add corresponding configuration parameter for pb-mode for every parameter where applicable. |
 | English translation. |
-| Descriptions for each configuration. |
+| Descriptions for each configuration recommendation. |
 | Remove deprecated configuration parameters. (No impact on security or privacy.) |
-| Formatting/tables for configuration list. |
+| Formatting and structuring of text. |
   
 <br></br>
 <br></br>
