@@ -7,7 +7,7 @@
 ### Planned fixes and improvments
 | <b>Description</b> |
 | :-----: |
-| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! |
+| * Add corresponding configuration parameter for pb-mode for every parameter where applicable. <b>Potential security and/or privacy risks in pb-mode!</b> |
 | English translation. |
 | Descriptions for each configuration. |
 | Remove deprecated configuration parameters. (No impact on security or privacy.) |
