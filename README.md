@@ -2,7 +2,7 @@
 # Firefox hardening
 <br></br>
 <br></br>
-#### 	WIP, take the listed notes below into considerations before appliying this guide.
+#### 	WIP, take the listed notes below into consideration before appliying this guide.
 ### Planned fixes/improvments.
 | Description | Status |
 | :---        |         ---: |
