@@ -17,6 +17,7 @@ Block trackers/uBlock Origin, privacy.trackingprotection.enabled = "true"
 Blocka cryptominers/uBlock origin, privacy.trackingprotection.cryptomining.enabled = "true"
 
 Selektiv script control/NoScript
+
 Inaktivera JIT/javascript.options.jit_trustedprincipals = true, javascript.options.wasm = false, javascript.options.baselinejit = "false", javascript.options.wasm_baselinejit = "false", javascript.options.wasm_optimizingjit = "false", javascript.options.ion = "false", javascript.options.wasm = "false", javascript.options.asmjs = "false"
 
 Blocka kända dåliga extesions/extensions.quarantinedDomains.enabled = true
