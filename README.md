@@ -1,57 +1,97 @@
 #Firefox hardening
 
 Aktivera Security Sandbox/security.sandbox.content.level = 4(Linux)/6(Windows)/3(OSX), security.sandbox.content.shadow-stack.enabled = true, security.sandbox.gmp.shadow-stack.enabled = true, security.sandbox.gpu.shadow-stack.enabled = true, security.sandbox.gpu.level = 1, dom.ipc.plugins.sandbox-level.default = 4(Linux)/6(Windows)/3(OSX), security.sandbox.gpu.level = ?(Vet ej ännu), security.sandbox.logging.enabled = true, systemvariabel MOZ_SANDBOX_LOGGING=1, (Windows)security.sandbox.content.win32k-disable = true, (Windows)security.sandbox.gmp.win32k-disable = true
+
 Aktivera Site Isolation/fission.autostart = true, gfx.webrender.all = true
+
 Block 3rd party cookies (För att använda ETP i Firefox)/network.cookie.cookieBehavior = 5
+
 HTTPS tvång/Settings - HTTPS-Only mode.
 (Windows)Aktivera Win32k lockdown/LockdownEnabled = 1
+
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
+
 Block trackers/uBlock Origin, privacy.trackingprotection.enabled = "true"
+
 Blocka cryptominers/uBlock origin, privacy.trackingprotection.cryptomining.enabled = "true"
+
 Selektiv script control/NoScript
 Inaktivera JIT/javascript.options.jit_trustedprincipals = true, javascript.options.wasm = false, javascript.options.baselinejit = "false", javascript.options.wasm_baselinejit = "false", javascript.options.wasm_optimizingjit = "false", javascript.options.ion = "false", javascript.options.wasm = "false", javascript.options.asmjs = "false"
+
 Blocka kända dåliga extesions/extensions.quarantinedDomains.enabled = true
+
 Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enable-webgl2 = "false"
+
 Content blocking/uBlock Origin
+
 Isolera websidors cookies, storage etc/Multi-Account Containers
+
 Isolera websidors cookies, storage etc för de domäner som inte används ofta(Inte har en permanent container)/Temporary Containers
+
 Cookie auto-delete med selektiv undantag per site/Cookie AutoDelete
+
 Etag auto-delete/Chameleon
+
 Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.middleclick = false
-frontend redirect/LibRedirect
+
+Frontend redirect/LibRedirect
+
 Blocka location tracking/geo.enabled = false
+
 User agent spoofing/Chameleon
+
 CSS exfil protection/Css exfil protection
+
 Inaktivera inbyggd region/språk detektering/browser.region.update.enabled = false, browser.region.local-geocoding = false, browser.region.network.url = ""
+
 Rensa URLs från trackingparametrar/ClearURLs, network.http.sendRefererHeader = 0, network.http.sendSecureXSiteReferrer = false
+
 Rensa URLs från shortener relays/FastForward
+
 WebRTC disable/media.peerconnection.enabled = "false"
+
 Lokal CDN/LocalCDN
+
 Inaktivera url och search bar tracking och collection/browser.urlbar.speculativeConnect.enabled = "false"
+
 Inaktivera First party cookie-isolation eftersom den annars inaktiverar network partioning/privacy.firstparty.isolate = "false"
+
 Inaktivera datainsamling/app.normandy.optoutstudies.enabled = "false", app.shield.optoutstudies.enabled = "false", extensions.getAddons.cache.enabled = "false", browser.safebrowsing.downloads.remote.enabled = "false", browser.send_pings = "false", dom.event.clipboardevents.enabled = "false", beacon.enabled = "false", browser.safebrowsing.downloads.enabled = "false", browser.safebrowsing.malware.enabled = "false", browser.safebrowsing.blockedURIs.enabled = "false", browser.safebrowsing.passwords.enabled = "false", browser.safebrowsing.phishing.enabled = "false",  browser.safebrowsing.downloads.remote.block_dangerous_host = "false", browser.safebrowsing.downloads.remote.block_dangerous = "false", browser.safebrowsing.downloads.remote.block_potentially_unwanted = "false", browser.safebrowsing.downloads.remote.block_uncommon = "false"
+
 Inaktivera diagnostik/app.normandy.enabled = "false", browser.ping-centre.telemetry = "false", toolkit.telemetry.bhrPing.enabled = "false", toolkit.telemetry.firstShutdownPing.enabled = "false", toolkit.telemetry.healthping.enabled = "false", toolkit.telemetry.newProfilePing.enabled = "false", toolkit.telemetry.shutdownPingSender.enabled = "false", toolkit.telemetry.updatePing.enabled = "false", toolkit.telemetry.archive.enabled = "false", toolkit.telemetry.enabled = "false", toolkit.telemetry.rejected = "true", toolkit.telemetry.server = "data:,", toolkit.telemetry.unified = "false", toolkit.telemetry.unifiedIsOptIn = "false", toolkit.telemetry.prompted = "2", toolkit.telemetry.rejected = "true", datareporting.healthreport.uploadEnabled = "false", datareporting.healthreport.infoURL = "", browser.crashReports.unsubmittedCheck.autoSubmit2 = "false", 
 browser.crashReports.unsubmittedCheck.autoSubmit = "false",
 browser.crashReports.unsubmittedCheck.enabled = "false", browser.tabs.crashReporting.includeURL = "false", browser.tabs.crashReporting.sendReport = "false", dom.ipc.plugins.flash.subprocess.crashreporter.enabled = "false", dom.ipc.tabs.createKillHardCrashReports = "false", toolkit.crashreporter.infoURL = "", systemvariabel MOZ_CRASHREPORTER_DISABLE = "1", MACOS application.ini [Crash Reporter] Enabled=0
+
 Inaktiverea Snippets/browser.aboutHomeSnippets.updateUrl = ""
 network.captive-portal-service.enabled = "false", network.connectivity-service.enabled = "false", network.http.speculative-parallel-limit = "0"
 browser.search.geoip.url = ""
 essaging-system.rsexperimentloader.enabled = "false"	
+
 Stäng funktioner med risk för siteläsning/browser.newtabpage.activity-stream.feeds.asrouterfeed = "false", network.prefetch-next = "false", network.dns.disablePrefetch = "true", network.dns.disablePrefetchFromHTTPS = "true", network.predictor.enabled = "false", network.predictor.enable-prefetch = "false"
+
 Stäng av DRM block-funktioner/media.eme.enabled = "false"
+
 Stäng av onödiga/osäkra tjänster/media.gmp-widevinecdm.enabled = "false", media.gmp-widevinecdm.visible = "false"
+
 Stäng av tracking av hårdvara/media.navigator.enabled = "false"
+
 Motverka spoofing/network.http.referer.XOriginPolicy = "2", network.http.referer.XOriginTrimmingPolicy = "2"
+
 Lokal historik/browser.sessionstore.privacy_level = "2"
+
 IDN exploits/network.IDN_show_punycode = "true"
+
 Stäng av cached browsing/browser.cache.memory.enable = "false", browser.cache.disk.enable = "false"
 dom.event.contextmenu.enabled = "False"
 security.ssl.treat_unsafe_negotiation_as_broken = True
 security.ssl.require_safe_negotiation = True
 security.tls.enable_0rtt_data = false
 plugin.scan.plid.all = False
+
 Sök på "safe*" och inaktivera all safe-browsing funktioner.
+
 Sök på "Telemetry*" och inaktivera alla telemtry-funktioner.
+
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
 browser.formfill.enable = false
@@ -101,9 +141,12 @@ media.autoplay.default = 5
 device.sensors.enabled = false
 privacy.clearsitedata.cache.enabled = true
 privacy.sanitize.timeSpan = 0
-"privacy.cpd*" till TRUE
-Sök på "privacy.clearOnShutdown*" till TRUE
-Sök på "datareporting*" till false/blank
+Ändra alla "privacy.cpd*" till TRUE
+
+Sök på "privacy.clearOnShutdown*" och ändra till TRUE
+
+Sök på "datareporting*" och inaktivera alla datareporting funktioner
+
 identity.fxaccounts.enabled = false
 network.trr.mode = 5(Om annat protokol tex dnscrypt används)
 network.dns.skipTRR-when-parental-control-enabled = false(Utifall jag börjar använda TTR i framtiden)
@@ -115,7 +158,7 @@ dom.allow_cut_copy = false (För att förhindra siter från att sno kopierad tex
 browser.newtabpage.activity-stream.showSponsored = false
 browser.newtabpage.activity-stream.showSponsoredTopSites = false
 browser.newtabpage.activity-stream.default.sites = ""
-geo.provider.network.url = "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%" (Utifall att jag börjar använda geolocation senare)
+geo.provider.network.url = "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%"
 geo.provider.use_corelocation = false
 geo.provider.use_gpsd = false
 geo.provider.use_geoclue = false
