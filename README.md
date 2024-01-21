@@ -143,6 +143,7 @@ media.autoplay.default = 5
 device.sensors.enabled = false
 privacy.clearsitedata.cache.enabled = true
 privacy.sanitize.timeSpan = 0
+
 Ändra alla "privacy.cpd*" till TRUE
 
 Sök på "privacy.clearOnShutdown*" och ändra till TRUE
