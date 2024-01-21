@@ -5,8 +5,7 @@
 ### 	WIP
 | Description | Status |
 | :---        |         ---: |
-| Add corresponding configuration parameter 
-for pb-mode for every parameter where applicable. Potential security 
+| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security 
 and/or privacy risks in pb-mode! | <b>Not started</b> | 
 | English translation. | <b>Not started</b> | 
 | Descriptions for each configuration. | <b>Not started</b> | 
