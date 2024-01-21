@@ -6,7 +6,7 @@
 
 ### Planned fixes and improvments
 | <b>Description</b> |
-| :-----: |
+| :-: |
 | Add corresponding configuration parameter for pb-mode for every parameter where applicable. <b>Potential security and/or privacy risks in pb-mode!</b> |
 | English translation. |
 | Descriptions for each configuration. |
