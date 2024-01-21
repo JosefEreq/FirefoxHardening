@@ -7,6 +7,7 @@ Aktivera Site Isolation/fission.autostart = true, gfx.webrender.all = true
 Block 3rd party cookies (För att använda ETP i Firefox)/network.cookie.cookieBehavior = 5
 
 HTTPS tvång/Settings - HTTPS-Only mode.
+
 (Windows)Aktivera Win32k lockdown/LockdownEnabled = 1
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
