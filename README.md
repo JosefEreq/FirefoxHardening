@@ -2,7 +2,8 @@
 # Firefox hardening
 <br></br>
 <br></br>
-### 	WIP, take the listed notes below into considerations before appliying this guide.
+#### 	WIP, take the listed notes below into considerations before appliying this guide.
+### Planned fixes/improvments.
 | Description | Status |
 | :---        |         ---: |
 | Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! | <b>Not started</b> |
