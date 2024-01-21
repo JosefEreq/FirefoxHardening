@@ -45,7 +45,6 @@ Motverka spoofing/network.http.referer.XOriginPolicy = "2", network.http.referer
 Lokal historik/browser.sessionstore.privacy_level = "2"
 IDN exploits/network.IDN_show_punycode = "true"
 Stäng av cached browsing/browser.cache.memory.enable = "false", browser.cache.disk.enable = "false"
-DNT/Chameleon (DNT inställningen i Firefox verkar inte slå på alla sidor.)
 dom.event.contextmenu.enabled = "False"
 security.ssl.treat_unsafe_negotiation_as_broken = True
 security.ssl.require_safe_negotiation = True
