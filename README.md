@@ -1,7 +1,18 @@
-## Firefox hardening
+# Firefox hardening
 <br></br>
-#### Some configuration parameters are deprecated and don't have any effect, and some are missing its corresponding parameter for pb-mode.
-#### English translation and full descriptions not done yet.
+<br></br>
+### 	WIP
+| Description | Status |
+| :---        |         ---: |
+| English translation. | <b>Not started</b> | 
+| Descriptions for each configuration. | <b>Not started</b> | 
+| Remove deprecated configuration parameters. (No impact on security or privacy.) | <b>Not started</b> | 
+| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode | <b>Not started</b> | 
+| Formatting/table for configuration list. | <b>Not started</b> | 
+  
+<br></br>
+<br></br>
+## 	Extensions and configuration parameters
 <br></br>
 Aktivera Security Sandbox/security.sandbox.content.level = 4(Linux)/6(Windows)/3(OSX), security.sandbox.content.shadow-stack.enabled = true, security.sandbox.gmp.shadow-stack.enabled = true, security.sandbox.gpu.shadow-stack.enabled = true, security.sandbox.gpu.level = 1, dom.ipc.plugins.sandbox-level.default = 4(Linux)/6(Windows)/3(OSX), security.sandbox.gpu.level = ?(Vet ej ännu), security.sandbox.logging.enabled = true, systemvariabel MOZ_SANDBOX_LOGGING=1, (Windows)security.sandbox.content.win32k-disable = true, (Windows)security.sandbox.gmp.win32k-disable = true
 
