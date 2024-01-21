@@ -69,7 +69,7 @@ network.captive-portal-service.enabled = "false", network.connectivity-service.e
 browser.search.geoip.url = ""
 essaging-system.rsexperimentloader.enabled = "false"	
 
-Stäng funktioner med risk för siteläsning/browser.newtabpage.activity-stream.feeds.asrouterfeed = "false", network.prefetch-next = "false", network.dns.disablePrefetch = "true", network.dns.disablePrefetchFromHTTPS = "true", network.predictor.enabled = "false", network.predictor.enable-prefetch = "false"
+Stäng av funktioner med risk för siteläsning/browser.newtabpage.activity-stream.feeds.asrouterfeed = "false", network.prefetch-next = "false", network.dns.disablePrefetch = "true", network.dns.disablePrefetchFromHTTPS = "true", network.predictor.enabled = "false", network.predictor.enable-prefetch = "false"
 
 Stäng av DRM block-funktioner/media.eme.enabled = "false"
 
