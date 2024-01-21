@@ -1,5 +1,5 @@
 <br></br>
-# Firefox hardening
+# Firefox security and privacy hardening guide
 <br></br>
 <br></br>
 #### 	WIP, take the listed notes below into consideration before appliying this guide.
