@@ -2,10 +2,10 @@
 # Firefox hardening
 <br></br>
 <br></br>
-### 	WIP
+### 	WIP, take the listed notes below into considerations before appliying this guide.
 | Description | Status |
 | :---        |         ---: |
-| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! | <b>Not started</b> | 
+| Add corresponding configuration parameter for pb-mode for every parameter where applicable. Potential security and/or privacy risks in pb-mode! | <b>Not started</b> |
 | English translation. | <b>Not started</b> | 
 | Descriptions for each configuration. | <b>Not started</b> | 
 | Remove deprecated configuration parameters. (No impact on security or privacy.) | <b>Not started</b> | 
