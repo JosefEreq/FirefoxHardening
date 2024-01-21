@@ -8,7 +8,7 @@ Aktivera Site Isolation/fission.autostart = true, gfx.webrender.all = true
 
 Cookie block-läge för att möjligöra aktivering av ETP i Firefox/network.cookie.cookieBehavior = 5
 
-HTTPS tvång/Settings - HTTPS-Only mode.
+Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
@@ -18,7 +18,7 @@ Blocka cryptominers/uBlock origin, privacy.trackingprotection.cryptomining.enabl
 
 Selektiv script control/NoScript
 
-Inaktivera JIT/javascript.options.jit_trustedprincipals = true, javascript.options.wasm = false, javascript.options.baselinejit = "false", javascript.options.wasm_baselinejit = "false", javascript.options.wasm_optimizingjit = "false", javascript.options.ion = "false", javascript.options.wasm = "false", javascript.options.asmjs = "false"
+Blocka all Javascript JIT/javascript.options.jit_trustedprincipals = true, javascript.options.wasm = false, javascript.options.baselinejit = "false", javascript.options.wasm_baselinejit = "false", javascript.options.wasm_optimizingjit = "false", javascript.options.ion = "false", javascript.options.wasm = "false", javascript.options.asmjs = "false"
 
 Blocka kända dåliga extesions/extensions.quarantinedDomains.enabled = true
 
@@ -30,29 +30,29 @@ Isolera websidors tabs/cookies, storage etc/Multi-Account Containers
 
 Isolera websidors tabs/cookies, storage etc för de domäner som inte används ofta(Inte har en permanent container)/Temporary Containers
 
-Cookie auto-delete med selektiv undantag per site/Cookie AutoDelete
+Cookie auto-delete med selektiva undantag/Cookie AutoDelete
 
-Etag auto-delete/Chameleon
+Auto-delete Etag/Chameleon
 
 Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.middleclick = false
 
 Frontend redirect/LibRedirect
 
-Blocka location tracking/geo.enabled = false
+Blocka geo tracking/geo.enabled = false
 
-User agent spoofing/Chameleon
+Spoofa user agent/Chameleon
 
-CSS exfil protection/Css exfil protection
+Motverka CSS exfil protection/Css exfil protection
 
 Inaktivera inbyggd region/språk detektering/browser.region.update.enabled = false, browser.region.local-geocoding = false, browser.region.network.url = ""
 
 Rensa URLs från trackingparametrar/ClearURLs, network.http.sendRefererHeader = 0, network.http.sendSecureXSiteReferrer = false
 
-Rensa URLs från shortener relays/FastForward
+Skippa URLs shorteners/FastForward
 
-WebRTC disable/media.peerconnection.enabled = "false"
+Inaktivera WebRTC(Sårbar för läckage)/media.peerconnection.enabled = "false"
 
-Lokal CDN/LocalCDN
+Använd lokal CDN/LocalCDN
 
 Inaktivera url och search bar tracking och collection/browser.urlbar.speculativeConnect.enabled = "false"
 
@@ -92,13 +92,13 @@ plugin.scan.plid.all = False
 
 Sök på "safe*" och inaktivera all safe-browsing funktioner.
 
-Sök på "Telemetry*" och inaktivera alla telemtry-funktioner.
+Sök på "Telemetry*" och inaktivera alla telemtry funktioner.
 
-Ändra alla "privacy.cpd*" till TRUE
+Ändra alla "privacy.cpd*" och ändra till TRUE
 
 Sök på "privacy.clearOnShutdown*" och ändra till TRUE
 
-Sök på "datareporting*" och inaktivera alla datareporting funktioner.
+Sök på "datareporting*" och inaktivera alla data reporting funktioner.
 
 Sätt "DuckDuckGO" som default sökmotor.
 
