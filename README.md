@@ -1,8 +1,8 @@
-# FirefoxHardening
+#Firefox hardening
 
 Aktivera Security Sandbox/security.sandbox.content.level = 4(Linux)/6(Windows)/3(OSX), security.sandbox.content.shadow-stack.enabled = true, security.sandbox.gmp.shadow-stack.enabled = true, security.sandbox.gpu.shadow-stack.enabled = true, security.sandbox.gpu.level = 1, dom.ipc.plugins.sandbox-level.default = 4(Linux)/6(Windows)/3(OSX), security.sandbox.gpu.level = ?(Vet ej ännu), security.sandbox.logging.enabled = true, systemvariabel MOZ_SANDBOX_LOGGING=1, (Windows)security.sandbox.content.win32k-disable = true, (Windows)security.sandbox.gmp.win32k-disable = true
-Block 3rd party cookies (För att använda ETP i Firefox)/network.cookie.cookieBehavior = 5
 Aktivera Site Isolation/fission.autostart = true, gfx.webrender.all = true
+Block 3rd party cookies (För att använda ETP i Firefox)/network.cookie.cookieBehavior = 5
 HTTPS tvång/Settings - HTTPS-Only mode.
 (Windows)Aktivera Win32k lockdown/LockdownEnabled = 1
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
