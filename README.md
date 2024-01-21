@@ -1,8 +1,8 @@
 <br></br>
-# Firefox security and privacy hardening guide
+# Firefox security and privacy hardening configuration
 <br></br>
 <br></br>
-#### 	WIP, take the listed notes below into consideration before appliying this guide.
+#### 	WIP, take the listed notes below into consideration before appliying this configuration guide.
 ### Planned fixes/improvments.
 | Description | Status |
 | :---        |         ---: |
