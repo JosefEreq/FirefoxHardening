@@ -98,7 +98,9 @@ Sök på "Telemetry*" och inaktivera alla telemtry-funktioner.
 
 Sök på "privacy.clearOnShutdown*" och ändra till TRUE
 
-Sök på "datareporting*" och inaktivera alla datareporting funktioner
+Sök på "datareporting*" och inaktivera alla datareporting funktioner.
+
+Sätt "DuckDuckGO" som default sökmotor.
 
 Rensa cert root store från aktörer med statlig koppling och mindre betrodda CAs.
 
