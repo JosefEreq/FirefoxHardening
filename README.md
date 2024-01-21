@@ -152,7 +152,7 @@ Sök på "datareporting*" och inaktivera alla datareporting funktioner
 
 identity.fxaccounts.enabled = false
 network.trr.mode = 5(Om annat protokol tex dnscrypt används)
-network.dns.skipTRR-when-parental-control-enabled = false(Utifall jag börjar använda TTR i framtiden)
+network.dns.skipTRR-when-parental-control-enabled = false
 browser.startup.page = 0
 browser.startup.homepage = "about:blank"
 browser.newtabpage.enabled = false
