@@ -94,6 +94,12 @@ Sök på "safe*" och inaktivera all safe-browsing funktioner.
 
 Sök på "Telemetry*" och inaktivera alla telemtry-funktioner.
 
+Ändra alla "privacy.cpd*" till TRUE
+
+Sök på "privacy.clearOnShutdown*" och ändra till TRUE
+
+Sök på "datareporting*" och inaktivera alla datareporting funktioner
+
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
 browser.formfill.enable = false
@@ -143,12 +149,6 @@ media.autoplay.default = 5
 device.sensors.enabled = false
 privacy.clearsitedata.cache.enabled = true
 privacy.sanitize.timeSpan = 0
-
-Ändra alla "privacy.cpd*" till TRUE
-
-Sök på "privacy.clearOnShutdown*" och ändra till TRUE
-
-Sök på "datareporting*" och inaktivera alla datareporting funktioner
 
 identity.fxaccounts.enabled = false
 network.trr.mode = 5(Om annat protokol tex dnscrypt används)
