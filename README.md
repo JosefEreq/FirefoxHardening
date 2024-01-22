@@ -23,7 +23,7 @@ Aktivera Security Sandbox/security.sandbox.content.level = 4(Linux)/6(Windows)/3
 
 Aktivera Site Isolation/fission.autostart = true, gfx.webrender.all = true
 
-Cookie block-läge för att möjligöra aktivering av ETP i Firefox/network.cookie.cookieBehavior = 5
+Blockera cross-site tracking cookies och isolera 3e part site cookies med inbyggd total cookie protection/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
