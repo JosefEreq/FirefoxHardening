@@ -57,7 +57,7 @@ Blocka geo tracking/geo.enabled = false
 
 Spoofa user agent/Chameleon
 
-Motverka CSS exfil protection/Css exfil protection
+Motverka CSS exfil protection/Chameleon
 
 Inaktivera inbyggd region/språk detektering/browser.region.update.enabled = false, browser.region.local-geocoding = false, browser.region.network.url = ""
 
@@ -403,3 +403,5 @@ browser.ping-centre.log = false
 Cookie Autodelete/Not neccesary with Firefox State Partioning/Total Cookie Protection combined with Temporary Containers, since cookies won't be shared outsite sites you visit and won't be reused when revisiting the same site.
 
 Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookie storages for each combination of visited/embedded site.
+
+CSS exfil protection/Redundant now that Chameleon offers the same protection. (Chameleon remains instead since it offers other recommended features such a user agent-spoofing.)
