@@ -47,8 +47,6 @@ Isolera websidors tabs/cookies, storage etc/Multi-Account Containers
 
 Isolera websidors tabs/cookies, storage etc för de domäner som inte används ofta(Inte har en permanent container)/Temporary Containers
 
-Cookie auto-delete med selektiva undantag/Cookie AutoDelete
-
 Auto-delete Etag/Chameleon
 
 Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.middleclick = false
@@ -396,3 +394,11 @@ geo.wifi.uri = ""
 browser.send_pings.require_same_host = true
 dom.battery.enabled = false
 browser.ping-centre.log = false
+
+<br></br>
+<br></br>
+## 	Deprecated and dismissed Firefox configuration and extensions
+
+<br></br>
+Cookie Autodelete/Not neccesary with Firefox State Partioning/Total Cookie Protection combined with Temporary Containers, since cookies won't be shared outsite sites you visit and won't be reused when revisiting the same site.
+Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookies for each combination of visited/embedded site.
