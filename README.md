@@ -404,4 +404,4 @@ Cookie Autodelete/Not neccesary with Firefox State Partioning/Total Cookie Prote
 
 Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookie storages for each combination of visited/embedded site.
 
-CSS exfil protection/Redundant now that Chameleon offers the same protection. (Chameleon remains instead since it offers other recommended features such a user agent-spoofing.)
+CSS exfil protection/Redundant now that Chameleon offers the same protection. (Chameleon remains instead of CSS exfil protection since it offers other recommended features such a user agent-spoofing.)
