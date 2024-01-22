@@ -402,4 +402,4 @@ browser.ping-centre.log = false
 <br></br>
 Cookie Autodelete/Not neccesary with Firefox State Partioning/Total Cookie Protection combined with Temporary Containers, since cookies won't be shared outsite sites you visit and won't be reused when revisiting the same site.
 
-Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookies for each combination of visited/embedded site.
+Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookie storages for each combination of visited/embedded site.
