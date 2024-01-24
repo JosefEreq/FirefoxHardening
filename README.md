@@ -4,8 +4,7 @@
 <br></br>
 #### 	This is a WIP, take the listed notes below into consideration before appliying this configuration guide.
 
-### Planned fixes and improvments
-| <b>Description</b> |
+| <b>Planned fixes and improvments</b> |
 | :-: |
 | Descriptions(English) for each recommendation. |
 | <b>(Security and/or privacy risks in pb-mode!)</b> Add corresponding configuration parameter for pb-mode for every parameter where applicable. |
