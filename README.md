@@ -2,7 +2,7 @@
 # Firefox security and privacy hardening configuration
 <br></br>
 <br></br>
-#### 	This is a WIP, take the listed notes below into consideration before appliying this configuration guide.
+#### 	This is a WIP, take the notes below into consideration before appliying this configuration guide.
 
 | <b>Planned fixes and improvments</b> |
 | :-: |
