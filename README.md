@@ -80,9 +80,12 @@ browser.crashReports.unsubmittedCheck.autoSubmit = "false",
 browser.crashReports.unsubmittedCheck.enabled = "false", browser.tabs.crashReporting.includeURL = "false", browser.tabs.crashReporting.sendReport = "false", dom.ipc.plugins.flash.subprocess.crashreporter.enabled = "false", dom.ipc.tabs.createKillHardCrashReports = "false", toolkit.crashreporter.infoURL = "", systemvariabel MOZ_CRASHREPORTER_DISABLE = "1", MACOS application.ini [Crash Reporter] Enabled=0
 
 Inaktiverea Snippets/browser.aboutHomeSnippets.updateUrl = ""
+
 network.captive-portal-service.enabled = "false", network.connectivity-service.enabled = "false", network.http.speculative-parallel-limit = "0"
+
 browser.search.geoip.url = ""
-essaging-system.rsexperimentloader.enabled = "false"	
+
+messaging-system.rsexperimentloader.enabled = "false"	
 
 Stäng av funktioner med risk för siteläsning/browser.newtabpage.activity-stream.feeds.asrouterfeed = "false", network.prefetch-next = "false", network.dns.disablePrefetch = "true", network.dns.disablePrefetchFromHTTPS = "true", network.predictor.enabled = "false", network.predictor.enable-prefetch = "false"
 
