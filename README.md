@@ -121,6 +121,8 @@ Sätt "DuckDuckGO" som default sökmotor.
 
 Rensa cert root store från aktörer med statlig koppling och mindre betrodda CAs.
 
+Manually, but frequently, update the browser and its extensions.
+
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
 browser.formfill.enable = false
