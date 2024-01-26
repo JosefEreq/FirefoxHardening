@@ -396,6 +396,13 @@ geo.wifi.uri = ""
 browser.send_pings.require_same_host = true
 dom.battery.enabled = false
 browser.ping-centre.log = false
+browser.urlbar.suggest.history = false
+browser.urlbar.suggest.bookmark = false
+browser.urlbar.suggest.openpage = false
+browser.urlbar.maxHistoricalSearchSuggestions = 0
+privacy.trackingprotection.emailtracking.enabled = true
+privacy.trackingprotection.emailtracking.pbmode.enabled = true
+
 
 <br></br>
 <br></br>
