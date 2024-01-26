@@ -402,6 +402,28 @@ browser.urlbar.suggest.openpage = false
 browser.urlbar.maxHistoricalSearchSuggestions = 0
 privacy.trackingprotection.emailtracking.enabled = true
 privacy.trackingprotection.emailtracking.pbmode.enabled = true
+browser.download.useDownloadDir = false
+privacy.sanitize.sanitizeOnShutdown = true
+dom.netinfo.enabled = false
+navigator.pdfViewerEnabled = false(Ladda ner och öppna PDF filer i egen VM)
+browser.link.open_newwindow = 3(Öppna i ny tab istället för window)
+browser.link.open_newwindow.restriction = 0(Gå efter inställning "browser.link.open_newwindow")
+places.history.enabled = false
+browser.download.folderList = 2
+network.trr.uri = ""(Så länge jag använder lokal DNScrypt-proxy klient)
+network.trr.custom_uri = "" (Så länge jag använder lokal DNScrypt-proxy klient)
+network.trr.bootstrapAddr = "" (Så länge jag använder lokal DNScrypt-proxy klient)
+permissions.default.geo = 2
+permissions.default.camera = 0
+permissions.default.microphone = 0
+permissions.default.desktop-notification = 2
+extensions.systemAddon.update.enabled = false
+extensions.systemAddon.update.url = ""
+dom.enable_performance = false
+dom.enable_performance_observer = false
+dom.enable_performance_navigation_timing = false
+dom.enable_performance_navigation = false
+dom.enable_performance_observer = false
 
 
 <br></br>
