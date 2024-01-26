@@ -44,7 +44,7 @@ Content blocking/uBlock Origin
 
 Automatically clear cookies/file storage of visited domains between revisits/Temporary Containers
 
-Allow for selective saving of site cookies by creating permanent domain-specific containers/Multi-Account Containers
+Allow for selective saving of site cookies by creating permanent domain-specific containers/Multi-Account Containers, privacy.userContext.enabled = true, privacy.userContext.ui.enabled = true
 
 Auto-delete Etag/Chameleon
 
@@ -383,8 +383,7 @@ browser.newtabpage.activity-stream.feeds.section.topstories = false
 browser.newtabpage.activity-stream.section.highlights.includePocket = false
 browser.newtabpage.activity-stream.feeds.discoverystreamfeed = false
 app.update.background.scheduling.enabled = false
-app.update.auto = true
-app.update.mode = 1
+app.update.auto = false
 browser.safebrowsing.provider.google4.gethashURL = ""
 browser.safebrowsing.provider.google4.updateURL = ""
 browser.safebrowsing.provider.google.gethashURL = ""
