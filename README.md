@@ -428,7 +428,6 @@ dom.enable_performance_observer = false
 <br></br>
 <br></br>
 ## 	Deprecated and dismissed Firefox configuration and extensions
-
 <br></br>
 Cookie Autodelete/Cookie Autodelete/Not neccesary since cookies won't be reused with Temporary Containers.
 
