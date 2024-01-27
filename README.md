@@ -42,9 +42,7 @@ Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enab
 
 Content blocking/uBlock Origin
 
-Automatically clear cookies/file storage of visited domains between revisits/Temporary Containers
-
-Allow for selective saving of site cookies by creating permanent domain-specific containers/Multi-Account Containers, privacy.userContext.enabled = true, privacy.userContext.ui.enabled = true
+Isolate site cookies and other data for each domain/Temporary Containers
 
 Auto-delete Etag/Chameleon
 
