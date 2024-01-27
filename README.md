@@ -22,7 +22,7 @@ Aktivera Security Sandbox/security.sandbox.content.level = 4(Linux)/6(Windows)/3
 
 Aktivera Site Isolation/fission.autostart = true, gfx.webrender.all = true
 
-Blockera cross-site tracking cookies och isolera 3e part site cookies med inbyggd total cookie protection/network.cookie.cookieBehavior = 5
+Isolate 3rd party cookies with ETP/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
