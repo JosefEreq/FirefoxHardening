@@ -42,7 +42,7 @@ Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enab
 
 Content blocking/uBlock Origin
 
-Isolate site cookies and other data for each domain/Temporary Containers
+Isolate site data(Other than cookies) for each domain and prevent cookies from being reused for the same domain/Temporary Containers
 
 Auto-delete Etag/Chameleon
 
@@ -430,7 +430,7 @@ dom.enable_performance_observer = false
 ## 	Deprecated and dismissed Firefox configuration and extensions
 
 <br></br>
-Cookie Autodelete/Not neccesary with Firefox State Partioning/Total Cookie Protection combined with Temporary Containers, since cookies won't be shared outsite sites you visit and won't be reused when revisiting the same site.
+Cookie Autodelete/Cookie Autodelete/Not neccesary since cookies won't be reused with Temporary Containers.
 
 Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookie storages for each combination of visited/embedded site.
 
