@@ -42,7 +42,7 @@ Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enab
 
 Content blocking/uBlock Origin
 
-Isolate site data(Other than cookies) for each domain and prevent cookies from being reused for the same domain/Temporary Containers
+Isolate site data(Other than cookies) for each domain and prevent cookies from being reused on revisits/Temporary Containers
 
 Auto-delete Etag/Chameleon
 
