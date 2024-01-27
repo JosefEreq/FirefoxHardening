@@ -32,11 +32,11 @@ Block trackers/uBlock Origin, privacy.trackingprotection.enabled = "true"
 
 Blocka cryptominers/uBlock origin, privacy.trackingprotection.cryptomining.enabled = "true"
 
-Selektiv script control/NoScript
+Selective script control/NoScript
 
-Blocka all Javascript JIT/javascript.options.jit_trustedprincipals = true, javascript.options.wasm = false, javascript.options.baselinejit = "false", javascript.options.wasm_baselinejit = "false", javascript.options.wasm_optimizingjit = "false", javascript.options.ion = "false", javascript.options.wasm = "false", javascript.options.asmjs = "false"
+Block Javascript JIT/javascript.options.jit_trustedprincipals = true, javascript.options.wasm = false, javascript.options.baselinejit = "false", javascript.options.wasm_baselinejit = "false", javascript.options.wasm_optimizingjit = "false", javascript.options.ion = "false", javascript.options.wasm = "false", javascript.options.asmjs = "false"
 
-Blocka kända dåliga extesions/extensions.quarantinedDomains.enabled = true
+Block known bad extensions/extensions.quarantinedDomains.enabled = true
 
 Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enable-webgl2 = "false"
 
@@ -48,35 +48,35 @@ Auto-delete Etag/Chameleon
 
 Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.middleclick = false
 
-Frontend redirect/LibRedirect
+Redirect to privacy focused frontends for different services such as Youtube/LibRedirect
 
-Blocka geo tracking/geo.enabled = false
+Block geo tracking/geo.enabled = false
 
-Spoofa user agent/Chameleon
+Spoof/randomize your user agent/Chameleon
 
-Motverka CSS exfil protection/Chameleon
+Prevent CSS exfil/Chameleon
 
-Inaktivera inbyggd region/språk detektering/browser.region.update.enabled = false, browser.region.local-geocoding = false, browser.region.network.url = ""
+Disable built-in language/region detection/browser.region.update.enabled = false, browser.region.local-geocoding = false, browser.region.network.url = ""
 
-Rensa URLs från trackingparametrar/ClearURLs, network.http.sendRefererHeader = 0, network.http.sendSecureXSiteReferrer = false
+Clean URLs from tracking parameters/ClearURLs, network.http.sendRefererHeader = 0, network.http.sendSecureXSiteReferrer = false
 
-Skippa URLs shorteners/FastForward
+Skip through URL shorteners/FastForward
 
-Inaktivera WebRTC(Sårbar för läckage)/media.peerconnection.enabled = "false"
+Disable WebRTC/media.peerconnection.enabled = "false"
 
-Använd lokal CDN/LocalCDN
+Use a local CDN to prevent tracking/LocalCDN
 
-Inaktivera url och search bar tracking och collection/browser.urlbar.speculativeConnect.enabled = "false"
+Disable URL/search bar collection/browser.urlbar.speculativeConnect.enabled = "false"
 
-Inaktivera First party cookie-isolation eftersom den annars inaktiverar network partioning/privacy.firstparty.isolate = "false"
+Disable First party cookie-isolation to prevent disabling of network partioning/privacy.firstparty.isolate = "false"
 
-Inaktivera datainsamling/app.normandy.optoutstudies.enabled = "false", app.shield.optoutstudies.enabled = "false", extensions.getAddons.cache.enabled = "false", browser.safebrowsing.downloads.remote.enabled = "false", browser.send_pings = "false", dom.event.clipboardevents.enabled = "false", beacon.enabled = "false", browser.safebrowsing.downloads.enabled = "false", browser.safebrowsing.malware.enabled = "false", browser.safebrowsing.blockedURIs.enabled = "false", browser.safebrowsing.passwords.enabled = "false", browser.safebrowsing.phishing.enabled = "false",  browser.safebrowsing.downloads.remote.block_dangerous_host = "false", browser.safebrowsing.downloads.remote.block_dangerous = "false", browser.safebrowsing.downloads.remote.block_potentially_unwanted = "false", browser.safebrowsing.downloads.remote.block_uncommon = "false"
+Disable built-in data collection/app.normandy.optoutstudies.enabled = "false", app.shield.optoutstudies.enabled = "false", extensions.getAddons.cache.enabled = "false", browser.safebrowsing.downloads.remote.enabled = "false", browser.send_pings = "false", dom.event.clipboardevents.enabled = "false", beacon.enabled = "false", browser.safebrowsing.downloads.enabled = "false", browser.safebrowsing.malware.enabled = "false", browser.safebrowsing.blockedURIs.enabled = "false", browser.safebrowsing.passwords.enabled = "false", browser.safebrowsing.phishing.enabled = "false",  browser.safebrowsing.downloads.remote.block_dangerous_host = "false", browser.safebrowsing.downloads.remote.block_dangerous = "false", browser.safebrowsing.downloads.remote.block_potentially_unwanted = "false", browser.safebrowsing.downloads.remote.block_uncommon = "false"
 
-Inaktivera diagnostik/app.normandy.enabled = "false", browser.ping-centre.telemetry = "false", toolkit.telemetry.bhrPing.enabled = "false", toolkit.telemetry.firstShutdownPing.enabled = "false", toolkit.telemetry.healthping.enabled = "false", toolkit.telemetry.newProfilePing.enabled = "false", toolkit.telemetry.shutdownPingSender.enabled = "false", toolkit.telemetry.updatePing.enabled = "false", toolkit.telemetry.archive.enabled = "false", toolkit.telemetry.enabled = "false", toolkit.telemetry.rejected = "true", toolkit.telemetry.server = "data:,", toolkit.telemetry.unified = "false", toolkit.telemetry.unifiedIsOptIn = "false", toolkit.telemetry.prompted = "2", toolkit.telemetry.rejected = "true", datareporting.healthreport.uploadEnabled = "false", datareporting.healthreport.infoURL = "", browser.crashReports.unsubmittedCheck.autoSubmit2 = "false", 
+Disable built-in diagnostik/data collection/app.normandy.enabled = "false", browser.ping-centre.telemetry = "false", toolkit.telemetry.bhrPing.enabled = "false", toolkit.telemetry.firstShutdownPing.enabled = "false", toolkit.telemetry.healthping.enabled = "false", toolkit.telemetry.newProfilePing.enabled = "false", toolkit.telemetry.shutdownPingSender.enabled = "false", toolkit.telemetry.updatePing.enabled = "false", toolkit.telemetry.archive.enabled = "false", toolkit.telemetry.enabled = "false", toolkit.telemetry.rejected = "true", toolkit.telemetry.server = "data:,", toolkit.telemetry.unified = "false", toolkit.telemetry.unifiedIsOptIn = "false", toolkit.telemetry.prompted = "2", toolkit.telemetry.rejected = "true", datareporting.healthreport.uploadEnabled = "false", datareporting.healthreport.infoURL = "", browser.crashReports.unsubmittedCheck.autoSubmit2 = "false", 
 browser.crashReports.unsubmittedCheck.autoSubmit = "false",
 browser.crashReports.unsubmittedCheck.enabled = "false", browser.tabs.crashReporting.includeURL = "false", browser.tabs.crashReporting.sendReport = "false", dom.ipc.plugins.flash.subprocess.crashreporter.enabled = "false", dom.ipc.tabs.createKillHardCrashReports = "false", toolkit.crashreporter.infoURL = "", systemvariabel MOZ_CRASHREPORTER_DISABLE = "1", MACOS application.ini [Crash Reporter] Enabled=0
 
-Inaktiverea Snippets/browser.aboutHomeSnippets.updateUrl = ""
+Disable Snippets/browser.aboutHomeSnippets.updateUrl = ""
 
 network.captive-portal-service.enabled = "false", network.connectivity-service.enabled = "false", network.http.speculative-parallel-limit = "0"
 
