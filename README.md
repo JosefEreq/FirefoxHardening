@@ -427,10 +427,3 @@ dom.enable_performance_observer = false
 
 <br></br>
 <br></br>
-## 	Deprecated and dismissed Firefox configuration and extensions
-<br></br>
-Cookie Autodelete/Cookie Autodelete/Not neccesary since cookies won't be reused with Temporary Containers.
-
-Set network.cookie.cookieBehavior to 1 instead of 5 to disable all cross-site cookies/Not neccesary with Firefox State Partioning/Total Cookie Protection since cross-site cookies are isolated into a cookie storage for that visited website and additional isolated cookie storages for each combination of visited/embedded site.
-
-CSS exfil protection/Redundant now that Chameleon offers the same protection. (Chameleon remains instead of CSS exfil protection since it offers other recommended features such a user agent-spoofing.)
