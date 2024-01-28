@@ -119,9 +119,7 @@ Sätt "DuckDuckGO" som default sökmotor.
 
 Disable built-in sync
 
-Rensa cert root store från aktörer med statlig koppling och mindre betrodda CAs.
-
-Manually, but frequently, update the browser and its extensions.
+Disable CA certificates from untrusted issuers(E.g. government/state-actors) in the browser certificate root store.
 
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
@@ -382,8 +380,6 @@ browser.newtabpage.activity-stream.feeds.snippets = false
 browser.newtabpage.activity-stream.feeds.section.topstories = false
 browser.newtabpage.activity-stream.section.highlights.includePocket = false
 browser.newtabpage.activity-stream.feeds.discoverystreamfeed = false
-app.update.background.scheduling.enabled = false
-app.update.auto = false
 browser.safebrowsing.provider.google4.gethashURL = ""
 browser.safebrowsing.provider.google4.updateURL = ""
 browser.safebrowsing.provider.google.gethashURL = ""
@@ -425,7 +421,6 @@ dom.enable_performance_observer = false
 dom.enable_performance_navigation_timing = false
 dom.enable_performance_navigation = false
 dom.enable_performance_observer = false
-app.update.silent = false
 dom.disable_window_status_change = true
 security.xpconnect.plugin.unrestricted = false
 dom.disable_window_open_feature.location = true
