@@ -117,6 +117,8 @@ Sök på "datareporting*" och inaktivera alla data reporting funktioner.
 
 Sätt "DuckDuckGO" som default sökmotor.
 
+Disable built-in sync
+
 Rensa cert root store från aktörer med statlig koppling och mindre betrodda CAs.
 
 Manually, but frequently, update the browser and its extensions.
@@ -423,6 +425,16 @@ dom.enable_performance_observer = false
 dom.enable_performance_navigation_timing = false
 dom.enable_performance_navigation = false
 dom.enable_performance_observer = false
+app.update.silent = false
+dom.disable_window_status_change = true
+security.xpconnect.plugin.unrestricted = false
+dom.disable_window_open_feature.location = true
+dom.disable_window_open_feature.status = true
+dom.allow_scripts_to_close_windows = false
+privacy.donottrackheader.value = 1
+network.protocol-handler.warn-external-default = true
+network.jar.open-unsafe-types = false
+
 
 
 <br></br>
