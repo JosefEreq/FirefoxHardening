@@ -2,12 +2,13 @@
 # Firefox security and privacy hardening configuration
 <br></br>
 <br></br>
-#### 	This is a WIP, take the notes below into consideration before appliying this configuration guide.
+#### 	This is a WIP, this configuration has not yet been tested fully.
+#### Also, take the notes below into consideration before appliying the suggested configuration.
 
 | <b>Planned fixes and improvments</b> |
 | :-: |
 | Descriptions(English) for each recommendation. |
-| <b>(Security and/or privacy risks in pb-mode!)</b> Add corresponding configuration parameter for pb-mode for every parameter where applicable. |
+| <b>(Security and/or privacy risks in pb-mode!)</b> Add corresponding configuration parameter for pb-mode for every applicable parameter. |
 | Remove deprecated configuration parameters. (No impact on security or privacy.) |
 | Formatting and structuring of text. |
   
