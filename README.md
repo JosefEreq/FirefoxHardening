@@ -48,8 +48,6 @@ Auto-delete Etag/Chameleon
 
 Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.middleclick = false
 
-Redirect to privacy focused frontends for different services such as Youtube/LibRedirect
-
 Block geo tracking/geo.enabled = false
 
 Spoof/randomize your user agent/Chameleon
@@ -64,7 +62,7 @@ Skip through URL shorteners/FastForward
 
 Disable WebRTC/media.peerconnection.enabled = "false"
 
-Use a local CDN to prevent tracking/LocalCDN
+Use a local CDN to further minimize tracking/LocalCDN
 
 Disable URL/search bar collection/browser.urlbar.speculativeConnect.enabled = "false"
 
@@ -84,7 +82,7 @@ browser.search.geoip.url = ""
 
 messaging-system.rsexperimentloader.enabled = "false"	
 
-Stäng av funktioner med risk för siteläsning/browser.newtabpage.activity-stream.feeds.asrouterfeed = "false", network.prefetch-next = "false", network.dns.disablePrefetch = "true", network.dns.disablePrefetchFromHTTPS = "true", network.predictor.enabled = "false", network.predictor.enable-prefetch = "false"
+Disable storing of URLs/browser.newtabpage.activity-stream.feeds.asrouterfeed = "false", network.prefetch-next = "false", network.dns.disablePrefetch = "true", network.dns.disablePrefetchFromHTTPS = "true", network.predictor.enabled = "false", network.predictor.enable-prefetch = "false"
 
 Stäng av DRM block-funktioner/media.eme.enabled = "false"
 
