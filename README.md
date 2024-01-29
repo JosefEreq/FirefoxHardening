@@ -2,7 +2,7 @@
 # Firefox security and privacy hardening configuration
 <br></br>
 <br></br>
-#### 	This is a WIP and the configuration has not yet been tested fully.
+#### 	This is a WIP and the configuration has not yet been fully tested.
 #### Also, take the notes below into consideration before appliying the suggested configuration.
 
 | <b>Planned fixes and improvments</b> |
