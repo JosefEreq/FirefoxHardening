@@ -29,7 +29,7 @@ Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
-Block trackers/uBlock Origin, privacy.trackingprotection.enabled = "true"
+Block trackers/privacy.trackingprotection.enabled = "true"
 
 Blocka cryptominers/uBlock origin, privacy.trackingprotection.cryptomining.enabled = "true"
 
