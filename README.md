@@ -41,7 +41,7 @@ Block known bad extensions/extensions.quarantinedDomains.enabled = true
 
 Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enable-webgl2 = "false"
 
-Content blocking/uBlock Origin
+Miscellaneous content blocking(Mainly tracking)/uBlock Origin
 
 Isolate site data(Other than cookies) for each domain and prevent cookies from being reused on revisits/Temporary Containers
 
