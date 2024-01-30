@@ -51,7 +51,7 @@ Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.
 
 Block geo tracking/geo.enabled = false
 
-Spoof/randomize your user agent/Chameleon
+Automatically spoof(And continuously randomize) your user agent/Chameleon
 
 Prevent CSS exfil/Chameleon
 
