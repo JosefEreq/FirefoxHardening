@@ -114,6 +114,8 @@ Sök på "privacy.clearOnShutdown*" och ändra till TRUE
 
 Sök på "datareporting*" och inaktivera alla data reporting funktioner.
 
+Använd RFP före FPP, aktivera dock bägge så länge RFP overridar FPP och Firefox stöder bägge aktiverade(RFP är säkrare/striktare än FPP)
+
 Sätt "DuckDuckGO" som default sökmotor.
 
 Disable built-in sync
@@ -428,7 +430,10 @@ dom.allow_scripts_to_close_windows = false
 privacy.donottrackheader.value = 1
 network.protocol-handler.warn-external-default = true
 network.jar.open-unsafe-types = false
-
+privacy.resistFingerprinting.randomDataOnCanvasExtract = true
+privacy.resistFingerprinting.autoDeclineNoUserInputCanvasPrompts = true
+privacy.resistFingerprinting.randomization.daily_reset.enabled = true
+privacy.resistFingerprinting.randomization.daily_reset.private.enabled = true
 
 
 <br></br>
