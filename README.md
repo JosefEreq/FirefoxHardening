@@ -27,7 +27,7 @@ Isolate 3rd party cookies with ETP/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
-Disable OCSP to prevent surfing leakage to external CAs/security.OCSP.enabled = 0, security.OCSP.require = false
+Disable OCSP to prevent surfing leakage to external CAs(Use Crlite to validate web cert validity)/security.OCSP.enabled = 0, security.OCSP.require = false
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
@@ -349,8 +349,6 @@ network.http.referer.disallowCrossSiteRelaxingDefault = true
 network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation = true
 network.http.referer.disallowCrossSiteRelaxingDefault.pbmode.top_navigation = true
 network.http.referer.disallowCrossSiteRelaxingDefault.pbmode = true
-privacy.partition.network_state.ocsp_cache = true
-privacy.partition.network_state.ocsp_cache.pbmode = true
 privacy.query_stripping.enabled = true
 privacy.trackingprotection.socialtracking.enabled = true
 dom.serviceWorkers.enabled = false
