@@ -27,7 +27,7 @@ Isolate 3rd party cookies with ETP/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
-Disable OCSP to prevent surfing leakage to external CAs(Use Crlite to validate web cert validity)/security.OCSP.enabled = 0, security.OCSP.require = false
+Disable OCSP to prevent surfing leakage to external CAs(Use Crlite to check for cert revocation)/security.OCSP.enabled = 0, security.OCSP.require = false
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
@@ -122,7 +122,7 @@ Sätt "DuckDuckGO" som default sökmotor.
 
 Disable built-in sync
 
-Disable CA certificates from untrusted issuers(E.g. government/state-actors) in the browser certificate root store.
+Disable CA certificates from untrusted issuers(E.g. government/state-affiliated actors) in the browser certificate root store.
 
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
