@@ -9,6 +9,7 @@
 | :-: |
 | Descriptions(English) for each recommendation. |
 | <b>(Security and/or privacy risks in pb-mode!)</b> Add corresponding configuration parameter for pb-mode for every applicable parameter. |
+| Specify the type of value for each configuration parameter(Boolean/Integer/String) |
 | Remove deprecated configuration parameters. (No impact on security or privacy.) |
 | Formatting and structuring of text. |
   
