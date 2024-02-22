@@ -54,8 +54,6 @@ Inaktivera new tab-middle click clipboard paste/browser.tabs.searchclipboardfor.
 
 Block geo tracking/geo.enabled = false
 
-Automatically spoof(And continuously randomize) your user agent/Chameleon
-
 Prevent CSS exfil/Chameleon
 
 Disable built-in language/region detection/browser.region.update.enabled = false, browser.region.local-geocoding = false, browser.region.network.url = ""
