@@ -28,7 +28,7 @@ Isolate 3rd party cookies with ETP/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
-Disable OCSP, enable OCSP stapling and CRLite/security.OCSP.enabled = 0, security.ssl.enable_ocsp_stapling = true, security.ssl.enable_ocsp_must_staple = true, 
+Disable OCSP, enable OCSP stapling and CRLite/security.OCSP.enabled = 0, security.ssl.enable_ocsp_stapling = true, security.ssl.enable_ocsp_must_staple = true, security.remote_settings.crlite_filters.enabled = true, security.pki.crlite_mode = 2
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
@@ -239,8 +239,6 @@ toolkit.winRegisterApplicationRestart = false
 browser.sessionstore.resume_from_crash = false
 browser.shell.shortcutFavicons = false
 security.family_safety.mode = 0
-security.remote_settings.crlite_filters.enabled = true
-security.pki.crlite_mode = 2
 dom.security.https_only_mode_pbm = true
 dom.security.https_only_mode = true
 dom.security.https_only_mode.upgrade_local = true
