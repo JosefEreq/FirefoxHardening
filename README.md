@@ -28,7 +28,7 @@ Isolate 3rd party cookies with ETP/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
-Disable OCSP to prevent surfing leakage to external CAs(Use Crlite to check for cert revocation)/security.OCSP.enabled = 0, security.OCSP.require = false
+Disable OCSP, enable OCSP stapling and CRLite/security.OCSP.enabled = 0, security.ssl.enable_ocsp_stapling = true, security.ssl.enable_ocsp_must_staple = true, 
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
@@ -123,6 +123,8 @@ Disable built-in sync
 
 Disable CA certificates from untrusted issuers(E.g. government/state-affiliated actors) in the browser certificate root store.
 
+privacy.partition.network_state = true
+privacy.partition.network_state.ocsp_cache = true
 browser.newtabpage.activity-stream.telemetry = false browser.newtabpage.activity-stream.feeds.telemetry = false
 security.ssl.enable_false_start = false
 browser.formfill.enable = false
@@ -305,7 +307,7 @@ mathml.disabled = true
 svg.disabled = true
 gfx.font_rendering.graphite.enabled = false
 gfx.font_rendering.opentype_svg.enabled = false
-extensions.blocklist.enabled = false
+extensions.blocklist.enabled = true
 network.http.referer.spoofSource = false (Sätt till false då den kan påverka CSRF protection)
 security.dialog_enable_delay = 1000
 extensions.webcompat.enable_shims = true
