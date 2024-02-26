@@ -28,7 +28,7 @@ Isolate 3rd party cookies with ETP/network.cookie.cookieBehavior = 5
 
 Tillåt inte okrypterad HTTP/Settings - HTTPS-Only mode.
 
-Disable OCSP, enable OCSP stapling and CRLite/security.OCSP.enabled = 0, security.ssl.enable_ocsp_stapling = true, security.ssl.enable_ocsp_must_staple = true, security.remote_settings.crlite_filters.enabled = true, security.pki.crlite_mode = 2
+Disable OCSP, instead use CRLite, and OCSP stapling as fallback./security.OCSP.enabled = 0, security.ssl.enable_ocsp_stapling = true, security.ssl.enable_ocsp_must_staple = true, security.remote_settings.crlite_filters.enabled = true, security.pki.crlite_mode = 2
 
 Minimera fingerprints/CanvasBlocker, privacy.resistFingerprinting = "true", privacy.resistFingerprinting.pbmode = true, privacy.trackingprotection.fingerprinting.enabled = "true"
 
