@@ -90,8 +90,6 @@ Stäng av DRM block-funktioner/media.eme.enabled = "false"
 
 Stäng av GMP/media.gmp-widevinecdm.enabled = "false", media.gmp-widevinecdm.visible = "false"
 
-Stäng av tracking av hårdvara/media.navigator.enabled = "false"
-
 Motverka spoofing/network.http.referer.XOriginPolicy = "2", network.http.referer.XOriginTrimmingPolicy = "2"
 
 Lokal historik/browser.sessionstore.privacy_level = "2"
@@ -132,7 +130,6 @@ browser.cache.disk_cache_ssl = false
 browser.cache.offline.enable = false
 dom.block_download_insecure = true
 dom.ipc.plugins.reportCrashURL = ""
-dom.w3c_touch_events.enabled = false
 extensions.pocket.enabled = false
 network.dns.echconfig.enabled = true
 network.dns.use_https_rr_as_altsvc = true
@@ -154,8 +151,6 @@ security.tls.hello_downgrade_check = true
 browser.cache.insecure.enable = false
 browser.fixup.alternate.enabled = false
 browser.send_pings.max_per_link = 0
-dom.vr.enabled = false
-dom.gamepad.enabled = false
 network.ftp.enabled = false
 browser.newtabpage.activity-stream.filterAdult = false
 network.manage-offline-status = false
@@ -170,7 +165,6 @@ media.peerconnection.turn.disable = true
 media.peerconnection.identity.timeout = 1
 geo.provider.ms-windows-location = false
 media.autoplay.default = 5
-device.sensors.enabled = false
 privacy.clearsitedata.cache.enabled = true
 privacy.sanitize.timeSpan = 0
 identity.fxaccounts.enabled = false
@@ -372,7 +366,7 @@ network.http.spdy.enabled = false
 clipboard.autocopy = false
 accessibility.typeaheadfind = false
 accessibility.typeaheadfind.flashBar = 0
-browser.zoom.siteSpecific = false
+browser.urlbar.maxRichResults = 0
 browser.newtab.preload = false
 browser.newtabpage.activity-stream.feeds.snippets = false
 browser.newtabpage.activity-stream.feeds.section.topstories = false
@@ -414,11 +408,6 @@ permissions.default.microphone = 0
 permissions.default.desktop-notification = 2
 extensions.systemAddon.update.enabled = false
 extensions.systemAddon.update.url = ""
-dom.enable_performance = false
-dom.enable_performance_observer = false
-dom.enable_performance_navigation_timing = false
-dom.enable_performance_navigation = false
-dom.enable_performance_observer = false
 dom.disable_window_status_change = true
 security.xpconnect.plugin.unrestricted = false
 dom.disable_window_open_feature.location = true
