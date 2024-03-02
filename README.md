@@ -7,10 +7,10 @@
 
 | <b>Planned fixes and improvments</b> |
 | :-: |
-| Descriptions(English) for each recommendation. |
+| Add description for each configuration. |
 | <b>(Security and/or privacy risks in pb-mode!)</b> Add corresponding configuration parameter for pb-mode for every applicable parameter. |
 | Specify the type of value for each configuration parameter(Boolean/Integer/String) |
-| Remove deprecated configuration parameters. (No impact on security or privacy.) |
+| Remove deprecated and redundant configurations. |
 | Formatting and structuring of text. |
   
 <br></br>
@@ -45,6 +45,11 @@ Block known bad extensions/extensions.quarantinedDomains.enabled = true
 Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enable-webgl2 = "false"
 
 Miscellaneous content blocking(Mainly tracking)/uBlock Origin
+
+Disable all kind of workers/service workers/shared workers/dom.serviceWorkers.enabled = false, Ublock Origin filters:
+*##+js(set, Worker, noopFunc)
+*##+js(set, ServiceWorker, noopFunc)
+*##+js(set, SharedWorker, noopFunc)
 
 Isolate site data(Other than cookies) for each domain and prevent cookies from being reused on revisits/Temporary Containers
 
@@ -270,7 +275,6 @@ extensions.postDownloadThirdPartyPrompt = false
 extensions.webextensions.restrictedDomains = ""
 browser.contentblocking.category = strict
 privacy.antitracking.enableWebcompat = false
-privacy.partition.serviceWorkers = true
 privacy.partition.always_partition_third_party_non_cookie_storage = true
 privacy.partition.always_partition_third_party_non_cookie_storage.exempt_sessionstorage = false
 privacy.resistFingerprinting.block_mozAddonManager = true
@@ -344,7 +348,6 @@ network.http.referer.disallowCrossSiteRelaxingDefault.pbmode.top_navigation = tr
 network.http.referer.disallowCrossSiteRelaxingDefault.pbmode = true
 privacy.query_stripping.enabled = true
 privacy.trackingprotection.socialtracking.enabled = true
-dom.serviceWorkers.enabled = false
 dom.webnotifications.enabled = false
 dom.webnotifications.serviceworker.enabled = false
 dom.push.enabled = false
