@@ -47,9 +47,7 @@ Inaktivera WebGL/webgl.disabled = "true", webgl.disable-wgl = "true", webgl.enab
 Miscellaneous content blocking(Mainly tracking)/uBlock Origin
 
 Disable all kind of workers/service workers/shared workers/dom.serviceWorkers.enabled = false, Ublock Origin filters:
-*##+js(set, Worker, noopFunc)
-*##+js(set, ServiceWorker, noopFunc)
-*##+js(set, SharedWorker, noopFunc)
+<br> *##+js(set, Worker, noopFunc) <br> *##+js(set, ServiceWorker, noopFunc) <br> *##+js(set, SharedWorker, noopFunc)
 
 Isolate site data(Other than cookies) for each domain and prevent cookies from being reused on revisits/Temporary Containers
 
