@@ -169,6 +169,7 @@ media.peerconnection.identity.timeout = 1
 geo.provider.ms-windows-location = false
 media.autoplay.default = 5
 privacy.clearsitedata.cache.enabled = true
+services.settings.poll_interval = 60
 privacy.sanitize.timeSpan = 0
 identity.fxaccounts.enabled = false
 network.trr.mode = 5(Om annat protokol tex dnscrypt används)
